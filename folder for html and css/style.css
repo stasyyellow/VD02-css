@@ -1,0 +1,55 @@
+/* Стили для контейнера карточек */
+.user-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+
+    /* Цвет фона и текста */
+    background-color: #E6E6FA; /* лавандовый */
+    color: #333; /* Цвет текста */
+}
+
+/* Стили для изображения */
+.user-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Стили при наведении на карточку */
+.user-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #ADD8E6; /* голубой небесный */
+}
+
+/* Стили для заголовка */
+.user-card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+/* Стили для текста */
+.user-card p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Контейнер для карточек */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #008B8B; /* Измененный цвет фона - бирюзовый */
+}
+
